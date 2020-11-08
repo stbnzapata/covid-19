@@ -24,16 +24,16 @@ export default class covid extends Component {
         return (
             <div className="container">
                 <div className="row">
-                <i class="fas fa-head-side-cough fa-7x mt-3"></i>
-                <h1 class="mx-5 mt-5"> reporte covid-19 </h1>
+                <i className="fas fa-head-side-cough fa-7x mt-3"></i>
+                <h1 className="mx-5 mt-5"> reporte covid-19 </h1>
                 </div>
                 <table className="table border mt-4">
                     <thead className="bg-white text-center">
                         <tr>
-                            <th scope="col">Pais <i class="fas fa-flag ml-3"></i></th>
-                            <th scope="col">Contagiados <i class="fas fa-virus ml-3"></i></th>
-                            <th scope="col">Recuperados <i class="fas fa-kiss-wink-heart ml-3"></i></th>
-                            <th scope="col">Muertos <i class="fas fa-dizzy ml-3"></i></th>
+                            <th scope="col">Pais <i className="fas fa-flag ml-3"></i></th>
+                            <th scope="col">Contagiados <i className="fas fa-virus ml-3"></i></th>
+                            <th scope="col">Recuperados <i className="fas fa-kiss-wink-heart ml-3"></i></th>
+                            <th scope="col">Muertos <i className="fas fa-dizzy ml-3"></i></th>
                         </tr>
                     </thead>
                     <tbody className="font-weight-bold">
